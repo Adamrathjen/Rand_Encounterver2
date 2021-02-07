@@ -1,30 +1,32 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+I wrote this program as a means of teaching myself how to write in the Kotlin programming language and better equip myself for future programming work.
 
-{Provide a description the software that you wrote to demonstrate the Kotlin language.}
+This program is a simplified version of a random encounter engine used in a pen and paper role-playing game of my own design.  
+The program will take in party size, location, and time of day to determine an appropriate encounter for the players.
 
-{Describe your purpose for writing this software.}
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running and a walkthrough of the code.  Focus should be on sharing what you learned about the language syntax.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Random Encounters Demo Video](https://studio.youtube.com/video/C1srDt10F74/edit)
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+To begin I used IntelliJ IDEA Community but Android Studio is also a viable option.
+I also used the latest Oracle JDK for compiling.
 
-{Describe the programming language that you used and any libraries.}
+This whole program was written in Kotlin 
+I imported a library to handle random number generation 
+I also used the Scanner library to handle user input
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+The following websites were helpful for learning the basics of Kotlin and downloading the necessary programs.
+* [Kotlin programming helps](https://www.programiz.com/kotlin-programming)
+* [Kotlin conditional statements](https://kotlinlang.org/docs/reference/control-flow.html)
+* [IntelliJ download](https://www.jetbrains.com/idea/)
+* [Oracle JDK download](https://www.oracle.com/java/technologies/javase-downloads.html)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* Expand potential random encounters and place on look up table
+* Streamline location, time of day, and party size into a class to pass
+* Provide a list of potential locations and potential encounters for each.
