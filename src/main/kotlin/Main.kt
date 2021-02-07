@@ -162,12 +162,3 @@ fun main() {
     }
 
 }
-
-//private operator fun Int.plusAssign(function: () -> Any) {
-//}
-
-
-//private fun String.Companion.toInt(nextInt: Int): Any {
-// return nextInt
-//}
-
